@@ -24,4 +24,4 @@ app.use('/api', taskRoutes);
 
 app.listen(3000, () => {
     console.log("Server listening on " + port);
-})
+});

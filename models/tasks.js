@@ -10,10 +10,7 @@ const taskSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    // status: {
-    //     type: String,
-    //     required: false
-    // }
+    completed: Boolean
 });
 
 module.exports = mongoose.model('Task', taskSchema); 
